@@ -1,0 +1,32 @@
+/* === Reset i zmienne === */
+
+:root {
+  --color-primary: #007bff;
+  --color-accent: #17a2b8;
+  --color-highlight: #ffc107;
+  --color-bg: rgba(26, 24, 24, 0.959);
+  --color-text: #e0e0e0;
+  --color-border: #444;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  background-color: #121212;
+  color: var(--color-text);
+}
+
+main{
+  border: 3px solid var(--color-primary);
+  border-radius: 20px;
+  padding: 20px;
+  max-width: 500px;
+  margin: auto;
+}
+.card-section {
+  border: 5px solid gray;
+  border-radius: 20px;
+  padding: 15px;
+}
+/* TODO: stylowanie karty gracza*/
